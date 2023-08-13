@@ -8,8 +8,11 @@ public class Main {
     public static void main(String[] args) {
 
         Aluno aluno1 = new Aluno();
+
+        /*
         Aluno aluno2 = new Aluno("Test");
         Aluno aluno3 = new Aluno("Teste1",26);
+        */
 
         String nome = JOptionPane.showInputDialog("What is your name?");
         String idade = JOptionPane.showInputDialog("How old are you?");
@@ -33,14 +36,11 @@ public class Main {
         aluno1.setNota4(Double.parseDouble(nota4));
 
 
-        System.out.println("Student id: " + aluno1.getDataMatricula());
-        System.out.println("Student name: " + aluno1.getNome());
-        System.out.println("Student age: " + aluno1.getIdade());
-        System.out.println("Student date of birth: " + aluno1.getDataNascimento() );
-        System.out.println("School: " + aluno1.getNomeEscola());
-        System.out.println("Student period: " + aluno1.getSerieMatriculado());
+        System.out.println(aluno1);
         System.out.println("The average of the student's grades is: " + aluno1.getMediaNota());
         System.out.println("Result: " + (aluno1.getAlunoAprovado() ? "Approved" : "Failed"));
+
+
 
 
     }
