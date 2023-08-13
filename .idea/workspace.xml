@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63f66acc-b8b1-4c2d-85a1-8c284a8cc468" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="63f66acc-b8b1-4c2d-85a1-8c284a8cc468" name="Changes" comment="Fazendo testa da classe">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/classes/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/Aluno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/comandos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/comandos/Main.java" afterDir="false" />
     </list>
@@ -83,8 +81,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691929135333</updated>
-      <workItem from="1691929135935" duration="4458000" />
+      <workItem from="1691929135935" duration="9881000" />
     </task>
+    <task id="LOCAL-00001" summary="Fazendo testa da classe">
+      <created>1691934923900</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691934923900</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,5 +106,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fazendo testa da classe" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fazendo testa da classe" />
   </component>
 </project>
