@@ -146,4 +146,17 @@ public class Aluno {
                 ", nota4=" + nota4 +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Aluno aluno)) return false;
+
+        return getNome().equals(aluno.getNome());
+    }
+
+    @Override
+    public int hashCode() {
+        return getNome().hashCode();
+    }
 }

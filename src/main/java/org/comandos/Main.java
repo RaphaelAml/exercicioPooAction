@@ -7,13 +7,13 @@ import javax.swing.*;
 public class Main {
     public static void main(String[] args) {
 
-        Aluno aluno1 = new Aluno();
-
         /*
+        Aluno aluno1 = new Aluno();
         Aluno aluno2 = new Aluno("Test");
         Aluno aluno3 = new Aluno("Teste1",26);
         */
 
+        /*
         String nome = JOptionPane.showInputDialog("What is your name?");
         String idade = JOptionPane.showInputDialog("How old are you?");
         String dataDeNasi = JOptionPane.showInputDialog("What is your date of birth?");
@@ -39,9 +39,19 @@ public class Main {
         System.out.println(aluno1);
         System.out.println("The average of the student's grades is: " + aluno1.getMediaNota());
         System.out.println("Result: " + (aluno1.getAlunoAprovado() ? "Approved" : "Failed"));
+        */
 
+        Aluno aluno1 = new Aluno();
+        aluno1.setNome("teste");
 
+        Aluno aluno2 = new Aluno();
+        aluno2.setNome("teste");
 
+        if(aluno1.equals(aluno2)){
+            System.out.println("Alunos sao iguais");
+        } else {
+            System.out.println("Nao sao iguais");
+        }
 
     }
 }

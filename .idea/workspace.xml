@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63f66acc-b8b1-4c2d-85a1-8c284a8cc468" name="Changes" comment="Fazendo teste na classe aluno">
+    <list default="true" id="63f66acc-b8b1-4c2d-85a1-8c284a8cc468" name="Changes" comment="Usando o metodo toString para mostrar os dados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/classes/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/Aluno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/comandos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/comandos/Main.java" afterDir="false" />
@@ -81,7 +81,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1691929135333</updated>
-      <workItem from="1691929135935" duration="10961000" />
+      <workItem from="1691929135935" duration="12409000" />
     </task>
     <task id="LOCAL-00001" summary="Fazendo testa da classe">
       <created>1691934923900</created>
@@ -97,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691960655432</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Usando o metodo toString para mostrar os dados">
+      <created>1691961932351</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1691961932351</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +124,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fazendo testa da classe" />
     <MESSAGE value="Fazendo teste na classe aluno" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fazendo teste na classe aluno" />
+    <MESSAGE value="Usando o metodo toString para mostrar os dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Usando o metodo toString para mostrar os dados" />
   </component>
 </project>
