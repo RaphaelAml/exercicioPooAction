@@ -36,6 +36,12 @@ public class Main {
             aluno1.getDisciplinas().add(disciplina);
         }
 
+        int escolha = JOptionPane.showConfirmDialog(null,"Do you want to remove any disciplina 1, 2, 3 ou 4 ?");
+
+        if(escolha == 0){
+            String disciplinaRemover = JOptionPane.showInputDialog("What is the discipline?");
+            aluno1.getDisciplinas().remove(Integer.valueOf(disciplinaRemover).intValue() - 1);
+        }
 
         System.out.println(aluno1);
         System.out.println("The average of the student's grades is: " + aluno1.getMediaNota());
