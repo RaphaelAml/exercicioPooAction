@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63f66acc-b8b1-4c2d-85a1-8c284a8cc468" name="Changes" comment="Usando recursos do POO">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+    <list default="true" id="63f66acc-b8b1-4c2d-85a1-8c284a8cc468" name="Changes" comment="Usando Vetores List&lt;&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/classes/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/Aluno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/classes/Disciplina.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/Disciplina.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/comandos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/comandos/Main.java" afterDir="false" />
     </list>
@@ -100,7 +98,7 @@
       <workItem from="1691929135935" duration="12409000" />
       <workItem from="1692485705147" duration="365000" />
       <workItem from="1692486223813" duration="1432000" />
-      <workItem from="1692537329909" duration="5768000" />
+      <workItem from="1692537329909" duration="7590000" />
     </task>
     <task id="LOCAL-00001" summary="Fazendo testa da classe">
       <created>1691934923900</created>
@@ -137,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692539360173</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Usando Vetores List&lt;&gt;">
+      <created>1692560882992</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692560882992</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,6 +165,7 @@
     <MESSAGE value="Usando o metodo toString para mostrar os dados" />
     <MESSAGE value="Insirido novos atibutos e teste" />
     <MESSAGE value="Usando recursos do POO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Usando recursos do POO" />
+    <MESSAGE value="Usando Vetores List&lt;&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Usando Vetores List&lt;&gt;" />
   </component>
 </project>

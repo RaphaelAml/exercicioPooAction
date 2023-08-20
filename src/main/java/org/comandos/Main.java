@@ -25,27 +25,17 @@ public class Main {
         aluno1.setNomeEscola(nomeEscola);
         aluno1.setSerieMatriculado(serieMatri);
 
-        Disciplina disciplina1 = new Disciplina();
-        disciplina1.setDisciplina("Banco de dados");
-        disciplina1.setNota(9.2);
+        for (int pos = 1; pos <= 4; pos++) {
+            String nomeDisciplina = JOptionPane.showInputDialog("Nome da disciplina " +pos+ "?");
+            String notaDisciplina = JOptionPane.showInputDialog("Nota da disciplina " +pos+ "?");
 
-        aluno1.getDisciplinas().add(disciplina1);
+            Disciplina disciplina = new Disciplina();
+            disciplina.setDisciplina(nomeDisciplina);
+            disciplina.setNota(Double.valueOf(notaDisciplina));
 
-        Disciplina disciplina2 = new Disciplina();
-        disciplina2.setDisciplina("Java");
-        disciplina2.setNota(8.5);
+            aluno1.getDisciplinas().add(disciplina);
+        }
 
-        aluno1.getDisciplinas().add(disciplina2);
-
-
-        Disciplina disciplina3 = new Disciplina();
-        disciplina3.setDisciplina("Sql");
-        disciplina3.setNota(9.1);
-
-
-        Disciplina disciplina4 = new Disciplina();
-        disciplina4.setDisciplina("Dba");
-        disciplina4.setNota(8.0);
 
         System.out.println(aluno1);
         System.out.println("The average of the student's grades is: " + aluno1.getMediaNota());
