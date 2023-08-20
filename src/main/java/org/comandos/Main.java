@@ -16,16 +16,16 @@ public class Main {
         String nomeEscola = JOptionPane.showInputDialog("What is the name of your college?");
         String serieMatri = JOptionPane.showInputDialog("What period of college are you in?");
 
-        String diciplina1 = JOptionPane.showInputDialog("Qual o nome da diciplina1?");
+        String disciplina1 = JOptionPane.showInputDialog("Qual o nome da diciplina1?");
         String nota1 = JOptionPane.showInputDialog("Nota1");
 
-        String diciplina2 = JOptionPane.showInputDialog("Qual o nome da diciplina2?");
+        String disciplina2 = JOptionPane.showInputDialog("Qual o nome da diciplina2?");
         String nota2 = JOptionPane.showInputDialog("Nota2");
 
-        String diciplina3 = JOptionPane.showInputDialog("Qual o nome da diciplina3?");
+        String disciplina3 = JOptionPane.showInputDialog("Qual o nome da diciplina3?");
         String nota3 = JOptionPane.showInputDialog("Nota3");
 
-        String diciplina4 = JOptionPane.showInputDialog("Qual o nome da diciplina4?");
+        String disciplina4 = JOptionPane.showInputDialog("Qual o nome da diciplina4?");
         String nota4 = JOptionPane.showInputDialog("Nota4?");
 
         aluno1.setDataMatricula("12");
@@ -34,15 +34,16 @@ public class Main {
         aluno1.setDataNascimento(dataDeNasi);
         aluno1.setNomeEscola(nomeEscola);
         aluno1.setSerieMatriculado(serieMatri);
-        aluno1.setNota1(Double.parseDouble(nota1));
-        aluno1.setNota2(Double.parseDouble(nota2));
-        aluno1.setNota3(Double.parseDouble(nota3));
-        aluno1.setNota4(Double.parseDouble(nota4));
 
-        aluno1.setDiciplina1(diciplina1);
-        aluno1.setDiciplina2(diciplina2);
-        aluno1.setDiciplina3(diciplina3);
-        aluno1.setDiciplina4(diciplina4);
+        aluno1.getDisciplina().setNota1(Double.parseDouble(nota1));
+        aluno1.getDisciplina().setNota2(Double.parseDouble(nota2));
+        aluno1.getDisciplina().setNota3(Double.parseDouble(nota3));
+        aluno1.getDisciplina().setNota4(Double.parseDouble(nota4));
+
+        aluno1.getDisciplina().setDisciplina1(disciplina1);
+        aluno1.getDisciplina().setDisciplina2(disciplina2);
+        aluno1.getDisciplina().setDisciplina3(disciplina3);
+        aluno1.getDisciplina().setDisciplina4(disciplina4);
 
 
         System.out.println(aluno1);
@@ -63,7 +64,6 @@ public class Main {
             System.out.println("Nao sao iguais");
         }
          */
-
 
 
     }
