@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="63f66acc-b8b1-4c2d-85a1-8c284a8cc468" name="Changes" comment="Utilizando o for com as listas">
+    <list default="true" id="63f66acc-b8b1-4c2d-85a1-8c284a8cc468" name="Changes" comment="Utilizando o metodo remover da List&lt;&gt;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/classes/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/classes/Aluno.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/comandos/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/comandos/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +98,7 @@
       <workItem from="1691929135935" duration="12409000" />
       <workItem from="1692485705147" duration="365000" />
       <workItem from="1692486223813" duration="1432000" />
-      <workItem from="1692537329909" duration="9184000" />
+      <workItem from="1692537329909" duration="14106000" />
     </task>
     <task id="LOCAL-00001" summary="Fazendo testa da classe">
       <created>1691934923900</created>
@@ -148,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1692563117753</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Utilizando o metodo remover da List&lt;&gt;">
+      <created>1692564799978</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1692564799978</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +181,7 @@
     <MESSAGE value="Usando recursos do POO" />
     <MESSAGE value="Usando Vetores List&lt;&gt;" />
     <MESSAGE value="Utilizando o for com as listas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Utilizando o for com as listas" />
+    <MESSAGE value="Utilizando o metodo remover da List&lt;&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Utilizando o metodo remover da List&lt;&gt;" />
   </component>
 </project>
