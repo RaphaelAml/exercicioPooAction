@@ -13,7 +13,7 @@ public class Disciplina {
         this.nota = nota;
     }
 
-    public String getDisciplina(String bancoDeDados) {
+    public String getDisciplina() {
         return disciplina;
     }
 
@@ -27,8 +27,8 @@ public class Disciplina {
         if (!(o instanceof Disciplina that)) return false;
 
         if (Double.compare(that.getNota(), getNota()) != 0) return false;
-        return getDisciplina("Banco de dados") != null ? getDisciplina("Banco de dados").
-                equals(that.getDisciplina("Banco de dados")) : that.getDisciplina("Banco de dados") == null;
+        return getDisciplina() != null ? getDisciplina().
+                equals(that.getDisciplina()) : that.getDisciplina() == null;
     }
 
     @Override
@@ -37,7 +37,7 @@ public class Disciplina {
         long temp;
         temp = Double.doubleToLongBits(getNota());
         result = (int) (temp ^ (temp >>> 32));
-        result = 31 * result + (getDisciplina("Banco de dados") != null ? getDisciplina("Banco de dados").hashCode() : 0);
+        result = 31 * result + (getDisciplina() != null ? getDisciplina().hashCode() : 0);
         return result;
     }
 

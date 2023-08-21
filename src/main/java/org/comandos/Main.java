@@ -60,13 +60,27 @@ public class Main {
         }
 
         for (Aluno aluno : alunos) {
-            System.out.println(aluno);
-            System.out.println("The average of the student's grades is: " + aluno.getMediaNota());
-            System.out.println("Is: " + aluno.getAlunoAprovado());
-            System.out.println("================================================");
+
+            if (aluno.getNome().equalsIgnoreCase("raphael")) {
+                alunos.remove(aluno);
+                break;
+            } else {
+                System.out.println(aluno);
+                System.out.println("The average of the student's grades is: " + aluno.getMediaNota());
+                System.out.println("Is: " + aluno.getAlunoAprovado());
+                System.out.println("================================================");
+
+            }
         }
 
+        for (Aluno aluno : alunos) {
+            System.out.println("Alunos da lista: " + aluno.getNome());
+            System.out.println("Suas materias sao: ");
 
+            for(Disciplina disciplina : aluno.getDisciplinas()) {
+                System.out.println(disciplina.getDisciplina());
+            }
+        }
 
 
         /*
